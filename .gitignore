@@ -1,0 +1,11 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.db
+logs/
+TestResults/
+.coverage
+coverage/
+.env
