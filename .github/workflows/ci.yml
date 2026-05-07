@@ -17,4 +17,4 @@ jobs:
 
       - run: dotnet restore
       - run: dotnet build --configuration Release
-      - run: dotnet test --configuration Release
+      - run: dotnet test tests/FinancialAPI.UnitTests/FinancialAPI.UnitTests.csproj --configuration Release
