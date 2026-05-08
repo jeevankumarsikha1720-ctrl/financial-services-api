@@ -222,11 +222,9 @@ docker compose down -v
 
 ## 📸 Screenshots
 
-> Start the project (`docker compose up -d && dotnet run --project src/FinancialAPI.API`) and add your screenshots here.
-
 | Swagger UI | Health Check | GitHub Actions CI |
 |---|---|---|
-| *(add screenshot)* | *(add screenshot)* | *(add screenshot)* |
+| ![Swagger UI](docs/screenshots/swagger.png) | ![Health Check](docs/screenshots/health.png) | ![GitHub Actions CI](docs/screenshots/ci.png) |
 
 ---
 
@@ -238,16 +236,4 @@ docker compose down -v
 - **7** EF Core entity configurations
 - **4** Kafka background consumers
 - **14** unit + integration tests — all passing
-- **1** GitHub Actions CI pipeline — green ✅
-
----
-
-## 📄 License
-
-MIT — feel free to use this as a reference or starting point for your own projects.
-
----
-
-<div align="center">
-Built by <a href="https://github.com/jeevankumarsikha1720-ctrl">Jeevan Kumar</a>
-</div>
+- **1** GitHub Actions CI pipelin
